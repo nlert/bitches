@@ -1,0 +1,28 @@
+* {
+    color: #0d1321;
+}
+
+body {
+    background-color: #f0ebd8;
+}
+
+button {
+    background-color: #f0ebd8;
+    border: 2px solid #0d1321;
+}
+
+button:hover {
+    background-color: #f9f7ef;
+}
+
+@media (max-width: 600px) {
+    button:hover {
+        background-color: #f0ebd8;
+        color: #0d1321;
+    }
+
+    button:active {
+        background-color: #3e5c76;
+    }
+}
+
