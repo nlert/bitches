@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Rubik', sans-serif;
     color: #f0ebd8;
+    scroll-behavior: smooth;
 }
 
 body {
