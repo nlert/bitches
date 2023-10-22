@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #f0ebd8;
+}
+
+body {
+    background-color: #0d1321;
+}
+
+button {
+    border: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: #1d2d44;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #3e5c76;
+    cursor: pointer;
+}
+
+.bitches-btn {
+    width: 410px;
+    font-size: 1.5rem;
+    background-color: #1d2d44;
+    color: #f0ebd8;
+    transition: 0.5s;
+}
+
+.bitches-btn:hover {
+    background-color: #3e5c76;
+    color: #f0ebd8;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.head {
+    margin-top: 4rem;
+}
+
+.head h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.names {
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 450px;
+    margin: 4rem;
+}
+
+.reveal {
+    display: none;
+    margin-bottom: 5rem;
+}
+
+.reveal-reveal {
+    display: flex !important;
+}
+
+.reveal p {
+    font-size: 2rem;
+    color: #f0ebd8;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+p:hover {
+    cursor: default;
+}
+
+.bitches-val {
+    border: 2px solid #1d2d44;
+    width: 410px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .head h1 {
+        font-size: 2rem;
+    }
+
+    .head h2 {
+        font-weight: 200;
+    }
+
+    .bitches-btn {
+        width: 300px;
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+
+    .reveal p {
+        font-size: 1.75rem;
+    }
+
+    .bitches-val {
+        width: 300px;
+        height: 100px;
+    }
+
+    button {
+        width: 300px;
+        height: 100px;
+    }
+
+    button:hover {
+        background-color: #1d2d44 !important;
+        color: #f0ebd8;
+    }
+
+    button:active {
+        background-color: #3e5c76;
+    }
+}
